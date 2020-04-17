@@ -42,7 +42,7 @@ class apiPageVC: UIViewController {
     // Notif sil
     deinit {
         NotificationCenter.default
-         .removeObserver(self, name:  NSNotification.Name("thumbs"), object: nil)
+         .removeObserver(self, name:  NSNotification.Name(NotificationType.Thumbnail.rawValue), object: nil)
     }
 }
 //MARK:-> Dizayn Protocol

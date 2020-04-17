@@ -29,7 +29,7 @@ class thumbsCell: UITableViewCell {
              super.init(style: style , reuseIdentifier: reuseIdentifier)
             setConfig(bgColor: .clear)
     }
-    private func setConfig(bgColor : UIColor? = nil){
+    func setConfig(bgColor : UIColor? = nil){
         if let color = bgColor {self.backgroundColor = color}
         setup()
     }

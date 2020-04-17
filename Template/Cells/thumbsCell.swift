@@ -58,9 +58,6 @@ class thumbsCell: UITableViewCell {
     func setThums(_ data : ThumbmailData){
         self.thumb = data
     }
-    func getThumbs()->ThumbmailData{
-        return self.thumb
-    }
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }

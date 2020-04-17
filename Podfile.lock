@@ -1,0 +1,28 @@
+PODS:
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - SDWebImage (5.6.1):
+    - SDWebImage/Core (= 5.6.1)
+  - SDWebImage/Core (5.6.1)
+  - TinyConstraints (4.0.1)
+
+DEPENDENCIES:
+  - NVActivityIndicatorView
+  - SDWebImage
+  - TinyConstraints
+
+SPEC REPOS:
+  trunk:
+    - NVActivityIndicatorView
+    - SDWebImage
+    - TinyConstraints
+
+SPEC CHECKSUMS:
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  SDWebImage: 7edb9c3ea661e77a66661f7f044de8c1b55d1120
+  TinyConstraints: 8dd91295e56797648c7bc335dd20e1d91ec4c192
+
+PODFILE CHECKSUM: 4271e4c48b99c56ec8f62910d9d4c3f06cd3fe42
+
+COCOAPODS: 1.8.4
